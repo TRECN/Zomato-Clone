@@ -17,9 +17,9 @@ function App() {
                 <Tabs/>
                 <Switch>
                     <Route path='/' exact component={Delivery}></Route>
-                    <Route path='/delivery' exact component={Delivery}></Route>
-                    <Route path='/dining' component={DiningOut}></Route>
-                    <Route path='/nightlife' component={Nightlife}></Route>
+                    <Route path='/Zomato-Clone/delivery' exact component={Delivery}></Route>
+                    <Route path='/Zomato-Clone/dining' component={DiningOut}></Route>
+                    <Route path='/Zomato-Clone/nightlife' component={Nightlife}></Route>
                 </Switch>
 
             </Router>
