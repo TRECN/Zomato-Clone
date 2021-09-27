@@ -1,6 +1,6 @@
 
 export const Delivery={
-    add:'/delivery',
+    add:'delivery',
     img:'delivery',
     C_add:'https://trecn.github.io/Zomato-Clone/#/',
     C_add1:'https://trecn.github.io/delivery',
@@ -12,7 +12,7 @@ export const Delivery={
 export const Dining={
     img:'plate',
     C_add1:'https://trecn.github.io/dining',
-    add:'/dining',
+    add:'dining',
     img1:'plate_active',
     head_C:'red',
     head: 'Dining\u00A0Out'
@@ -20,7 +20,7 @@ export const Dining={
 export const Nightlife={
     img:'nightlife',
     C_add1:'https://trecn.github.io/nightlife',
-    add:'/nightlife',
+    add:'nightlife',
     img1:'nightlife_active',
     head_C:'red',
     head: 'Nightlife'
