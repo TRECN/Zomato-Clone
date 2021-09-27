@@ -1,0 +1,88 @@
+.DiningOut{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.Cards{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Collections{
+    
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.heading2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(139, 139, 139);
+}
+.collects{
+    display: flex;
+    align-items:flex-start;
+    
+}
+.all{
+    margin-left: 50px;
+    color: rgb(245, 112, 112);
+}
+.arrow{
+    content: url(../../assets/diningout/img11.svg);
+}
+
+.Warrow{
+    content: url(../../assets/diningout/img12.svg);
+}
+
+.collect{
+    padding: 20px;
+    border-radius: 20px;
+}
+.collect:hover{
+    cursor: pointer;
+}
+.momo{
+    border-radius: 20pxpx;
+    max-height: 300px;
+    content: url(../../assets/diningout/momo.avif);
+}
+.cafe{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/cafe.avif);
+}
+.coff{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/coff.avif);
+}
+.food{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/food.avif);
+}
+.hov{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 4rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 0 20px 20px;
+   
+}
+@media screen and (min-width:915px) {
+    .collects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .DiningOut{
+        justify-content: center;
+    }
+}
