@@ -19,7 +19,7 @@ function DiningOut() {
                     <div className="collect">
                         <img className="momo" />
                         <div className="hov">
-                            <h2>Tranding This Week</h2>
+                            <h2>Trending This Week</h2>
                             <h3>23 places <img className='Warrow'/></h3>                           
                         </div>
                     </div>
